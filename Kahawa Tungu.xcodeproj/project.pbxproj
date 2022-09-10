@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		48B7419228CC70B7004828C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7419128CC70B7004828C8 /* AppDelegate.swift */; };
 		48B7419428CC70B7004828C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7419328CC70B7004828C8 /* SceneDelegate.swift */; };
-		48B7419628CC70B7004828C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B7419528CC70B7004828C8 /* ViewController.swift */; };
 		48B7419928CC70B7004828C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B7419728CC70B7004828C8 /* Main.storyboard */; };
 		48B7419B28CC70BA004828C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B7419A28CC70BA004828C8 /* Assets.xcassets */; };
 		48B7419E28CC70BA004828C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B7419C28CC70BA004828C8 /* LaunchScreen.storyboard */; };
+		48B741A728CC71D9004828C8 /* OrdersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B741A628CC71D9004828C8 /* OrdersTableVC.swift */; };
+		48B741A928CC71FF004828C8 /* AddOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B741A828CC71FF004828C8 /* AddOrderVC.swift */; };
+		48B741AC28CC7CED004828C8 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B741AB28CC7CED004828C8 /* WebService.swift */; };
+		48B741AF28CC8032004828C8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B741AE28CC8032004828C8 /* Order.swift */; };
+		48B741B228CC8400004828C8 /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B741B128CC8400004828C8 /* OrderViewModel.swift */; };
+		48B741B428CC8A21004828C8 /* AddOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B741B328CC8A21004828C8 /* AddOrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48B7418E28CC70B7004828C8 /* Kahawa Tungu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kahawa Tungu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B7419128CC70B7004828C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48B7419328CC70B7004828C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48B7419528CC70B7004828C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48B7419828CC70B7004828C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48B7419A28CC70BA004828C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B7419D28CC70BA004828C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48B7419F28CC70BA004828C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B741A628CC71D9004828C8 /* OrdersTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableVC.swift; sourceTree = "<group>"; };
+		48B741A828CC71FF004828C8 /* AddOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderVC.swift; sourceTree = "<group>"; };
+		48B741AB28CC7CED004828C8 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		48B741AE28CC8032004828C8 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		48B741B128CC8400004828C8 /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		48B741B328CC8A21004828C8 /* AddOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		48B7419028CC70B7004828C8 /* Kahawa Tungu */ = {
 			isa = PBXGroup;
 			children = (
+				48B741B028CC83EF004828C8 /* ViewModels */,
+				48B741AD28CC8022004828C8 /* Models */,
+				48B741AA28CC7CD3004828C8 /* Service */,
+				48B741A528CC70EC004828C8 /* Controllers */,
 				48B7419128CC70B7004828C8 /* AppDelegate.swift */,
 				48B7419328CC70B7004828C8 /* SceneDelegate.swift */,
-				48B7419528CC70B7004828C8 /* ViewController.swift */,
 				48B7419728CC70B7004828C8 /* Main.storyboard */,
 				48B7419A28CC70BA004828C8 /* Assets.xcassets */,
 				48B7419C28CC70BA004828C8 /* LaunchScreen.storyboard */,
 				48B7419F28CC70BA004828C8 /* Info.plist */,
 			);
 			path = "Kahawa Tungu";
+			sourceTree = "<group>";
+		};
+		48B741A528CC70EC004828C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48B741A628CC71D9004828C8 /* OrdersTableVC.swift */,
+				48B741A828CC71FF004828C8 /* AddOrderVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		48B741AA28CC7CD3004828C8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				48B741AB28CC7CED004828C8 /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		48B741AD28CC8022004828C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48B741AE28CC8032004828C8 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48B741B028CC83EF004828C8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				48B741B128CC8400004828C8 /* OrderViewModel.swift */,
+				48B741B328CC8A21004828C8 /* AddOrderViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B7419628CC70B7004828C8 /* ViewController.swift in Sources */,
+				48B741AF28CC8032004828C8 /* Order.swift in Sources */,
+				48B741A728CC71D9004828C8 /* OrdersTableVC.swift in Sources */,
+				48B741A928CC71FF004828C8 /* AddOrderVC.swift in Sources */,
+				48B741B428CC8A21004828C8 /* AddOrderViewModel.swift in Sources */,
 				48B7419228CC70B7004828C8 /* AppDelegate.swift in Sources */,
+				48B741AC28CC7CED004828C8 /* WebService.swift in Sources */,
+				48B741B228CC8400004828C8 /* OrderViewModel.swift in Sources */,
 				48B7419428CC70B7004828C8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
